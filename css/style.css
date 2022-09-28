@@ -9,11 +9,19 @@ body{
 .header{
 	display:flex;
 	padding: 12px;
-	justify-content: end;
+	justify-content:end;
 }
 
 .header span{
 	padding: 12px;
+	cursor:pointer;
+	
+}
+.header span:hover{
+	 text-decoration:underline;
+}
+.header img:hover{
+	background-color:#E0DBDA;
 }
 .app{
 	width: 19px;
@@ -35,27 +43,27 @@ body{
 
 .googlePic{
 	display: flex;
-    	justify-content: center;
+    	justify-content:center;
 	margin-top: 24px;
 }
 .google{
 	width:378px;
 }
-.headerMiddle {
+.searchBox {
 	display: flex;
 	flex: 0.4;
 	align-items: center;
-	background-color: whitesmoke;
+	background-color:whitesmoke ;
 	padding: 3px;
 	border-radius: 20px;
 }
-.headerMiddle input {
+.searchBox input {
 	border: none;
 	width: 100%;
 	padding: 10px;
 	outline: none;
 	font-size: medium;
-	background-color: transparent;
+	background-color:#FFFFFF;
 }
 .Icons {
 	width: 25px;
