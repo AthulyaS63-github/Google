@@ -47,7 +47,7 @@ body{
 	margin-top: 24px;
 }
 .google{
-	width:378px;
+	width:300px;
 }
 .searchBox {
 	display: flex;
@@ -116,12 +116,25 @@ body{
 }
 .footerBox2{
 	display:flex;
+	justify-content:space-between;
 	background-color:rgb(241, 243, 243);
 	color: #70757a;
 	border-bottom: 1px solid #dadce0;
-	padding: 7px;
+	padding: 10px;
 }
 .footerBox2 span{
-	padding-left:8px; 
+	padding-left:10px; 
 	font-size: 15px;
+	cursor: pointer;
+}
+.fBox22{
+	margin-left: 746px;
+}
+.fBox21{
+	display:flex;
+	
+	
+}
+.fBox21 span:hover{
+	text-decoration: underline;
 }
